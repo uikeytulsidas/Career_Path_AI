@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-# API_KEY = "AIzaSyDsy83ifKNQZaXnhRhitFYdET6xmSGhGss"
+
 API_KEY = os.getenv("GEMINI_API_KEY")
 HEADERS = {"Content-Type": "application/json"}
 MAX_RETRIES = 3
