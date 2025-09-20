@@ -69,6 +69,6 @@ SECRET_KEY=your_django_secret_key
 
 Frontend (frontend/.env):
 
-REACT_APP_API_URL=http://localhost:8000/api
+REACT_APP_API_URL=http://localhost:8000/api  
 
 
