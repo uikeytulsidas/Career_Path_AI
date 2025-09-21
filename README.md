@@ -40,7 +40,7 @@ AI-generated career recommendations
 Chat sidebar with saved sessions
 Authentication flow
 
-🎥 Prototype Video
+
 
 
 1. Clone Repo
@@ -60,15 +60,15 @@ npm start
 
 
 4. Environment Variables
-Create .env in both backend/ and frontend/:
+Create .env in both backend/ and frontend/:-
 Backend (backend/.env):
 
 GEMINI_API_KEY=your_google_gemini_api_key
 DATABASE_URL=postgres://user:password@localhost:5432/careerdb
 SECRET_KEY=your_django_secret_key
 
-Frontend (frontend/.env):
+Frontend (frontend/.env):-
 
-REACT_APP_API_URL=http://localhost:8000/api  
+REACT_APP_API_URL=http://localhost:8000/api
 
 
